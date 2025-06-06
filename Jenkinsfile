@@ -23,7 +23,7 @@ pipeline {
                 sshPublisher(
                     publishers: [
                         sshPublisherDesc(
-                            configName: 'Prod',
+                            configName: 'bubunta-clone-server',
                             transfers: [
                                 sshTransfer(
                                     sourceFiles: '**',
